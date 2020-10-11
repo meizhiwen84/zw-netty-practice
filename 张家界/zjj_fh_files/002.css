@@ -1,0 +1,163 @@
+﻿html { line-height: .64rem }
+.MfwHead { background-color: #fff; border-bottom: 1px solid #e5e5e5; height: 1.33rem; position: relative }
+.MfwHead a.btn { background-size: 2.67rem 8rem; height: 1.33rem; width: 1.33rem }
+.MfwHead .logo { background-size: 2.16rem .56rem; width: 2.51rem; height: .67rem }
+.MfwHead .CBtn .logo { padding: .4rem 0 0; background-position: 0 .4rem }
+.MfwHead .CBtn h1 { font-size: .426rem; line-height: 1.33rem }
+.MfwHead a.btn.search { background-position: -0.13rem -1.33rem }
+.T-head { height: 1.146rem }
+.T-head li a { line-height: 1.15rem; font-size: .43rem }
+.T-head li a:before { height: .75rem; top: .19rem }
+.MfwHead .searchBox { padding: .32rem 1.333rem 0 2.773rem }
+.MfwHead .searchBox .search-wrap { border-radius: .4rem; font-size: .32rem; padding: 0 .933rem 0 .32rem }
+.MfwHead .searchBox input { height: .266rem; padding: .213rem 0; border-radius: .346rem; font-size: .32rem }
+.MfwHead .searchBox .s-btn { width: .933rem; height: .8rem; background: url(btn_search2.png) .213rem .106rem no-repeat; background-size: .453rem; outline: 0 }
+.MfwHead a.btn.setting { background-position: -1.33rem -1.33rem }
+.search-box-on .cancelsearch { font-size: .4rem }
+.MfwHead .ka { width: .8rem; height: .8rem; padding-left: .266rem; line-height: .8rem; top: .266rem; font-size: .32rem; border-radius: .4rem 0 0 .4rem }
+.MfwHead .mess { top: .16rem; right: .133rem; padding: .08rem .16rem; color: #fff; border-radius: .533rem; font-size: .293rem }
+.MfwHead .avastar { width: .8rem; height: .8rem; padding: 1px; border-radius: .4rem; top: .266rem; right: .266rem }
+.MfwHead .avastar img { width: .8rem; height: .8rem; border-radius: .4rem; overflow: hidden }
+.subnav a { padding: 0 .48rem; line-height: 1.2rem; font-size: .453rem }
+.subnav a.cur:after { left: .266rem; right: .266rem; height: 2px }
+.newHead a.btn.back { background: url("collect_sprites.png") no-repeat; background-size: 1.33rem 1.33rem; background-position: .53rem .43rem; width: 1.2rem }
+.head2home { height: 1.33333rem }
+.head2home .rBtn a.home { width: 2.48rem; line-height: 1.33333rem; font-size: .4rem }
+.head2home .rBtn a.home:after { height: .4rem; top: .45333rem }
+.head2home .rBtn a.sch { background: url(i_head5.png) 0 -1.33333rem no-repeat; background-size: 2.66667rem; height: 1.33333rem; width: 1.33333rem }
+.omcToAppBar { height: 1.97333rem }
+.omcToAppBar .logo { width: 1.41333rem; height: 1.41333rem; background-size: 1.41333rem; top: .26667rem; left: .53333rem }
+.omcToAppBar .context { padding: .26667rem 0 0 2.4rem }
+.omcToAppBar .context .t1 { font-size: .42667rem; line-height: .85333rem }
+.omcToAppBar .context .t2 { font-size: .32rem }
+.omcToAppBar .btn { width: 2.18667rem; height: .69333rem; line-height: .69333rem; font-size: .32rem; top: .58667rem; right: .48rem }
+.omc2Guide { display: block; background-color: #f8f8f8; position: relative; padding-bottom: .53333rem }
+.omc2Guide .btn { width: 2.93333rem; height: .8rem; line-height: .8rem; border-radius: .4rem; background-color: #ffdb26; color: #474747; font-size: .4rem; position: absolute; bottom: .4rem; left: 50%; margin-left: -1.46667rem; text-align: center }
+.user-lv { font-size: .26667rem; color: #474747; padding: 0 .08rem; text-align: center; line-height: .32rem; height: .32rem; border-radius: .05333rem; display: inline-block; position: relative; vertical-align: middle; margin: 0 0 .08rem .13333rem; -webkit-margin-before: 0; -webkit-margin-after: .08rem }
+.user-lv:before { content: ""; width: 200%; height: 200%; padding: 3px; position: absolute; left: -2px; top: -2px; border: 1px solid #474747; transform-origin: 0 0; -webkit-transform-origin: 0 0; transform: scale(0.5, 0.5); -webkit-transform: scale(0.5, 0.5); border-radius: .10667rem }
+.user-lv.lv-s2 { background-color: #ffed92; border: 1px solid #fff }
+.user-lv.lv-s3 { background-color: #ffdb26; border: 1px solid #fff }
+.user-lv.lv-s4 { background-color: #474747; color: #ffdb26; border: 1px solid #474747; line-height: .37333rem; height: .37333rem; padding: 0 .10667rem }
+.user-lv.lv-s4:before { display: none }
+.omcTopBar { display: block; height: 2.58667rem; background: #fff url("line1.png") 0 bottom repeat-x; background-size: 5px; position: relative }
+.omcTopBar .logo { width: 1.86667rem; height: 1.86667rem; background: url("logo140.png") no-repeat; background-size: 1.86667rem; position: absolute; top: .26667rem; left: .48rem }
+.omcTopBar .context { padding: .26667rem 0 0 2.88rem }
+.omcTopBar .context .t1 { font-size: .24rem; line-height: .48rem; color: #797979 }
+.omcTopBar .context .t1 .kk { display: inline-block; line-height: .42667rem; border: 1px solid #ccc; border-radius: 2px; padding: 0 .13333rem }
+.omcTopBar .context .t1 .stars { display: inline-block; width: 1.49333rem; height: .26667rem; background: url("omcstars.png") no-repeat; background-size: 1.49333rem; vertical-align: middle; margin: 0 .10667rem }
+.omcTopBar .context .t2 { font-size: .4rem; line-height: .72rem; color: #202020 }
+.omcTopBar .context .btns { font-size: 0 }
+.omcTopBar .context .btns a { display: inline-block; margin-right: .64rem; width: 2.74667rem; line-height: .69333rem; text-align: center; font-size: .32rem; color: #202020; background-color: #ffcb10; border-radius: 2px }
+.omcToBan { height: 1.86667rem }
+.omcToBan .logo { width: 1.38667rem; height: 1.38667rem; background-size: 1.38667rem; top: .21333rem; left: .26667rem }
+.omcToBan .context { padding: .32rem 0 0 2rem }
+.omcToBan .context .t1 { font-size: .4rem; line-height: .58667rem }
+.omcToBan .context .t2 { font-size: .34667rem; line-height: 1em; padding-top: .13333rem }
+.omcToBan .btn { width: 2.34667rem; height: .90667rem; line-height: .90667rem; font-size: .34667rem; top: .48rem; right: .32rem }
+.clearfix:after, .q-detail .meta:after { clear: both; height: 0; overflow: hidden; display: block; visibility: hidden; content: "." }
+.sortbar .sort-dropdown a+a, .space, .relate .item+.item { position: relative }
+.sortbar .sort-dropdown a+a:before, .space:before, .relate .item+.item:before { content: ''; position: absolute; left: 0; right: 0; top: 0; border-top: 1px solid #e5e5e5; -webkit-transform: scaleY(0.5); transform: scaleY(0.5); -webkit-transform-origin: 0 0; transform-origin: 0 0 }
+.space { position: relative }
+.space:after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; border-bottom: 1px solid #e5e5e5; -webkit-transform: scaleY(0.5); transform: scaleY(0.5); -webkit-transform-origin: 0 100%; transform-origin: 0 100% }
+body { max-width: 10rem; margin: 0 auto }
+.container { padding-bottom: 2rem; line-height: 1.33; font-size: .4rem }
+img { width: 100% }
+.q-detail { padding: .53333rem .53333rem .53333rem .8rem; box-shadow: 0 .05333rem .32rem 0 rgba(0, 0, 0, 0.08); position: relative }
+.q-detail.fixed { position: fixed; left: 0; top: 0; right: 0; z-index: 15; background-color: #fff; display: none }
+.q-detail.fixed .title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0 }
+.q-detail.fixed .stat, .q-detail.fixed .meta, .q-detail.fixed .desc { display: none }
+.q-detail:before { content: ''; position: absolute; width: .53333rem; height: .53333rem; background: url(sprite-icon01.png) -4.4rem -1.89333rem no-repeat; background-size: 5.46667rem auto; left: 0; top: .58667rem }
+.q-detail .title { margin-bottom: .26667rem; font-size: .58667rem; font-weight: 600; line-height: 1.1 }
+.q-detail .desc { margin-bottom: .4rem; overflow: auto }
+.q-detail .desc-img { float: right; margin-left: .26667rem; width: 1.81333rem; height: 1.81333rem; background-color: #f8f8f8; overflow: hidden }
+.q-detail .desc-img .num { position: absolute; padding: 0 .26667rem; height: .53333rem; line-height: .53333rem; font-size: .32rem; background-color: rgba(0, 0, 0, 0.6); border-radius: .26667rem; bottom: .13333rem; left: 50%; transform: translateX(-50%); white-space: nowrap; color: #fff }
+.q-detail .desc-txt { display: block; margin-bottom: .26667rem }
+.q-detail .stat { margin-bottom: .26667rem; line-height: .66667rem }
+.q-detail .btn { float: right; padding: 0 .26667rem; border: 1px solid #999; font-size: .37333rem; border-radius: .05333rem; line-height: .61333rem }
+.q-detail .btn:active { background-color: #f8f8f8 }
+.q-detail .meta { line-height: .42667rem; font-size: .32rem }
+.q-detail .location { display: inline-block; color: #13dab6; font-size: .42667rem; font-weight: 600 }
+.q-detail .location:before { content: ''; float: left; margin-right: .16rem; width: .38333rem; height: .42667rem; background: url(sprite-icon01.png) -4.54rem -4.4rem no-repeat; background-size: 5.46667rem auto }
+.q-detail .user { float: right }
+.q-detail .user img { margin-right: .13333rem; width: .42667rem; height: .42667rem; background-color: #f8f8f8; border-radius: 50%; float: left; }
+.q-detail .time { margin-left: .13333rem }
+.label-guide { display: inline-block; float: left; border: 1px solid; color: #13dab6; padding: .05333rem .08rem; font-size: .26667rem; border-radius: .05333rem; line-height: 1; margin-top: .10667rem }
+.sortbar { margin: .4rem .53333rem -0.24rem; text-align: right; position: relative }
+.sortbar .sort-trigger { display: inline-block; font-size: .37333rem; line-height: 1 }
+.sortbar .sort-trigger:after { content: ''; display: inline-block; width: .42667rem; height: .42667rem; margin-left: .13333rem; background: url(sprite-icon01.png) -3.41333rem -4.4rem no-repeat; background-size: 5.46667rem auto; vertical-align: -0.08rem }
+.sortbar .sort-dropdown { position: absolute; width: 3.33333rem; line-height: 1.2rem; font-size: .4rem; right: -0.26667rem; top: .8rem; background-color: #fff; z-index: 10; box-shadow: 0 .05333rem .32rem 0 rgba(0, 0, 0, 0.1); border-radius: .10667rem; text-align: left }
+.sortbar .sort-dropdown a { display: block; padding-left: .53333rem; position: relative }
+.sortbar .sort-dropdown a:active { background-color: #f8f8f8 }
+.sortbar .sort-dropdown a.on { font-weight: 600 }
+.sortbar .sort-dropdown a.on:after { content: ''; display: inline-block; margin-left: .13333rem; width: .56rem; height: .56rem; background: url(sprite-icon01.png) -2.4rem 0rem no-repeat; background-size: 5.46667rem auto; vertical-align: -0.16rem }
+.a-detail { padding: .53333rem }
+.a-detail.a-goldmedal { position: relative; overflow: hidden; }
+.answerlist:nth-child(4) .ask-comment { display: block; }
+.answerlist:nth-child(5) .a-detail:before { content: '相关回答'; width: 100%; height: 1rem; display: block; font-size: 0.6rem; }
+.j_answer_list:first-child .a-detail.a-goldmedal:after { content: ''; position: absolute; width: 2.34667rem; height: 2.34667rem; background: url(sprite-icon01.png) 0rem 0rem no-repeat; background-size: 5.46667rem auto; top: .53333rem; right: .26667rem }
+.a-detail .hd { margin: 0 0 .26667rem .69333rem; height: .64rem; line-height: .64rem }
+.a-detail .da { display: inline-block; margin-left: -0.53333rem; float: left; width: 1.06667rem; background-color: #ffdb26; border-top-right-radius: .32rem; border-bottom-right-radius: .32rem; left: 0; z-index: 10 }
+.a-detail .da:before { content: ''; display: inline-block; margin: .16rem 0 0 .08rem; width: .32rem; height: .32rem; background: url(sprite-icon01.png) -5.09333rem -3.28rem no-repeat; background-size: 5.46667rem auto; vertical-align: top }
+.a-detail .da img { float: right; margin: .02667rem; width: .58667rem; height: .58667rem; background-color: #f8f8f8; border-radius: 50%; overflow: hidden; vertical-align: top }
+.a-detail .name { float: left; margin-right: .08rem; font-weight: 600 }
+.a-detail .user-lv { float: left; margin-top: .13333rem; margin-right: .13333rem }
+.a-detail .time { float: right; font-size: .32rem; color: #767676 }
+.a-detail .bd { min-height: 2.66667rem; margin-bottom: .53333rem; font-size: .48rem; line-height: 1.5; color: #555 }
+.a-detail .bd p { margin: .4rem 0 }
+.a-detail .bd p:first-child { margin-top: 0 }
+.a-detail .bd a { color: #30a2f3 }
+.a-detail .expandable { position: relative; overflow: hidden }
+.a-detail .expand-more { z-index: 5; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff); text-align: center; color: #30a2f3; line-height: 1; font-size: .42667rem; float: left; margin-left: 5%; }
+.a-detail .expand-more p { position: absolute; left: 0; bottom: .26667rem; right: 0; margin: 0 }
+.a-detail .expand-more p:after { content: ''; display: inline-block; margin-left: .13333rem; width: .34667rem; height: .32rem; background: url(sprite-icon01.png) -5.22667rem -1.22667rem no-repeat; background-size: 5.46667rem auto; vertical-align: 0 }
+.a-detail .ft { text-align: center; font-size: 0; line-height: .56rem }
+.a-detail .ft.arrow { padding-right: .53333rem; position: relative }
+.a-detail .ft.arrow:after { content: ''; position: absolute; width: .26667rem; height: .42667rem; background: url(sprite-icon01.png) -5.09333rem 0rem no-repeat; background-size: 5.46667rem auto; right: 0; top: .06667rem }
+.a-detail .ft a { display: inline-block; font-size: .4rem; vertical-align: top }
+.a-detail .ft a+a { margin-left: .53333rem }
+.a-detail .ft a:before { content: ''; float: left; margin-right: .13333rem; display: inline-block; width: .56rem; height: .56rem; background: url(sprite-icon01.png) 0rem -4.4rem no-repeat; background-size: 5.46667rem auto }
+.a-detail .ft a.btn-ding.on:before { background-position: -4.4rem -3.28rem }
+.a-detail .ft a.btn-comment:before { background-position: -2.74667rem -4.4rem }
+.a-detail .ft a.btn-collect:before { background-position: -4.4rem -1.2rem }
+.a-detail .ft a.btn-collect.on:before { background-position: -0.69333rem -4.4rem }
+.space { height: .26667rem; background-color: #f8f8f8 }
+.relate header { font-size: .53333rem; line-height: 1; padding: .53333rem .53333rem 0 }
+.relate .item { display: block; padding: .53333rem 1.17333rem .53333rem 1.28rem; line-height: 1; position: relative }
+.relate .item:active { background-color: #f8f8f8 }
+.relate .item .wen { position: absolute; left: .53333rem; top: .53333rem; width: .48rem; height: .48rem; background: url(sprite-icon01.png) -4.4rem 0rem no-repeat; background-size: 5.46667rem auto }
+.relate .item:after { content: ''; position: absolute; width: .24rem; height: .42667rem; background: url(sprite-icon01.png) -4.08rem -4.4rem no-repeat; background-size: 5.46667rem auto; right: .53333rem; top: 50%; margin-top: -0.21333rem }
+.relate .item h3 { height: .42667rem; margin-bottom: .21333rem; font-size: .42667rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.relate .item p { font-size: .32rem }
+.fixed-bot { position: fixed; left: 0; right: 0; bottom: 0; background-color: #fff; height: 1.33333rem; z-index: 50; box-shadow: 0 0 .32rem 0 rgba(0, 0, 0, 0.1); display: flex }
+.fixed-bot .item { flex: 1; height: 100%; display: flex; justify-content: center; align-items: center; font-size: .4rem; position: relative }
+.fixed-bot .item:active { background-color: #f8f8f8 }
+.fixed-bot .item+.item:before { content: ''; position: absolute; width: 1px; height: .8rem; background-color: #e5e5e5; left: 0; top: .26667rem; transform: scaleX(0.5) }
+.fixed-bot i { display: inline-block; margin-right: .13333rem; width: .56rem; height: .56rem; background: url(sprite-icon01.png) -4.4rem -2.6rem no-repeat; background-size: 5.46667rem auto }
+.fixed-bot i.icon-addanswer { background-position: -1.37333rem -4.4rem }
+.rel-question { padding: .53333rem 0 .53333rem .53333rem; background: #FFF }
+.rel-question h2 { font-size: .53333rem; font-weight: normal; line-height: 1 }
+.rel-question .ques-box { padding-left: .26667rem }
+.rel-question .ques-box a { display: block }
+.rel-question .ques-box li { border-bottom: 1px solid rgba(0, 0, 0, 0.1); padding: .53333rem 0; position: relative }
+.rel-question .ques-box li:before { content: ""; position: absolute; left: -0.8rem; top: .53333rem; width: .56rem; height: .56rem; background: url(sprite-icon01.png) -4.4rem -1.89333rem no-repeat; background-size: 5.46667rem auto }
+.rel-question .ques-box li:after { content: ""; position: absolute; right: .53333rem; top: 50%; margin-top: -0.18667rem; width: .37333rem; height: .37333rem; background: url(sprite-icon01.png) -5.09333rem -1.89333rem no-repeat; background-size: 5.46667rem auto }
+.rel-question .ques-box li .img { width: 2.13333rem; height: 1.49333rem; background: #d8d8d8; overflow: hidden; float: left; margin-right: .26667rem }
+.rel-question .ques-box li .info h3 { margin-bottom: .13333rem; font-size: .42667rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-height: .50667rem; padding-right: .53333rem }
+.rel-question .ques-box li .info p { font-size: .32rem }
+.rel-question .ques-box li .info p span { font-weight: 600 }
+.rel-question-v2 .ques-box li:before { background: url(sprite-icon01_v2.png) -3.69333rem -1.89333rem no-repeat; background-size: 5.46667rem auto }
+.rel-question .ques-box li .info h3 { line-height: .54667rem; padding-right: .83333rem }
+.rel-question .ques-box li:after { margin-top: -0.48667rem }
+.info p .right-tag { color: #49d2ba; margin-right: .16rem }
+.rel-question .ques-box li .info p { line-height: normal }
+.container.no-padding { padding-bottom: 0 }
+.default-pos { position: static }
+.default-pos a.width { width: 100% }
+.ask-height { max-height: 9.533rem; overflow: hidden }
+.hiddenList { display: none }
+.b-swpiper { width: 100%; position: fixed; bottom: 0; left: 0; z-index: 200; box-sizing: border-box; -webkit-box-sizing: border-box }
+.b-swpiper .list li { line-height: normal; overflow: hidden }
+.b-swpiper .list a { display: block; padding: .4666666667rem .2666666667rem .3333333333rem .7333333333rem; background: #ffde3f; overflow: hidden }
+.b-swpiper .list .l-text { width: 6.5333333333rem; float: left; font-size: .4533333333rem; line-height: .5333333333rem; font-weight: bold }
+.b-swpiper .list .r-btn { float: right; font-size: .32rem; padding: .1733333333rem .4rem; border: 1px solid #474747; border-radius: 100px; line-height: .3466666667rem; margin-top: .1333333333rem }
+.b-swpiper .tags { background: -webkit-linear-gradient(left, #ff7575, #ff5c5d); position: absolute; top: -0.4rem; left: 0; padding: .2rem .2rem .2rem .0533333333rem; line-height: .32rem; font-size: .2933333333rem; color: #fff; border-top-right-radius: .5333333333rem; border-bottom-right-radius: .5333333333rem; z-index: 33 }
