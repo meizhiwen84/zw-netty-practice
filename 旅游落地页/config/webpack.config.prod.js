@@ -22,7 +22,7 @@ const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
 const px2rem = require('postcss-px2rem');
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
-const publicPath = paths.servedPath + 'knowledgeClassroom/';
+const publicPath = paths.servedPath + '/';
 // Some apps do not use client-side routing with pushState.
 // For these, "homepage" can be set to "." to enable relative asset paths.
 const shouldUseRelativeAssetPaths = publicPath === './';

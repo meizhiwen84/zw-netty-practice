@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/knowledgeClassroom/precache-manifest.9d44979c1290adbd0b6993cded1ea8e8.js"
+  "//precache-manifest.66c5df82e4163200263543e900f5e06a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/knowledgeClassroom/index.html", {
+workbox.routing.registerNavigationRoute("//index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
