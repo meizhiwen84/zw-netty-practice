@@ -152,29 +152,6 @@
 <div class="container no-padding" style="max-width: 640px;margin-left: auto;margin-right: auto;background-color: #fff;overflow:hidden;">
 
     <div data-v-f206322a="" class="back_ground jmw_wdnr jmw_show_header" data-wd="29" style="background: url(static/image/2020-2010061003259.jpg) no-repeat 0 0;background-size: 100% auto;">
-        <div data-v-f206322a="" class="select">
-            <!--<ul data-v-f206322a="">
-                <li data-v-f206322a="" class="first">
-                    <a data-v-f206322a="" href="#">
-                        <img data-v-f206322a="" src="static/picture/lazyload.gif" data-original="static/picture/3.1.png" alt="">
-                        <p data-v-f206322a="" style="color:lightseagreen">马峰窝</p>
-                    </a></li>
-                <li data-v-f206322a=""><a data-v-f206322a="" href="#">
-                    <img data-v-f206322a="" src="static/picture/lazyload.gif" data-original="static/picture/3.2.png" alt="">
-                    <p data-v-f206322a="">旅游攻略</p>
-                </a></li>
-                <li data-v-f206322a=""><a data-v-f206322a="" href="#">
-                    <img data-v-f206322a="" src="static/picture/lazyload.gif" data-original="static/picture/3.3.png" alt="">
-                    <p data-v-f206322a="">问答</p>
-                </a></li>
-                <li data-v-f206322a=""><a data-v-f206322a="" href="#">
-                    <img data-v-f206322a="" src="static/picture/lazyload.gif" data-original="static/picture/3.4.png" alt="">
-
-                    <p data-v-f206322a="">目的地</p>
-                </a>
-                </li>
-            </ul>-->
-        </div>
     </div>
 
 
@@ -878,17 +855,6 @@
 
 
 
-<!--底部微信开始-->
-<div class="plug_wrapper plug_style plug_wx_c wx_qr_code" style="position: fixed; bottom: 55%; right: 10px;">
-    <div class="btn-float plug_wx_c">
-        <div class="msg-spot plug_wx_c">1</div>
-
-        <div class="plug_icon-img plug_wx_c" style="background-image: url('static/image/plug_wx1.jpg');"></div>
-
-        <span class="plug_message plug_wx_c">点我免费咨询</span>
-
-    </div>
-</div>
 
 
 
@@ -993,7 +959,7 @@
 
     $(function () {
         var d = 1;
-        var e = 20;
+        var e = 30;
         var f = 0;
         if (d != null && d.play_second != null) {
             e = parseInt(d.play_second)
@@ -1031,7 +997,7 @@
                     $("#plug_wx_99").hide(100);
                     autoShow()
                 },
-                2000)
+                1000)
         }
         function autoShow() {
             if (k) {
