@@ -5,8 +5,7 @@ import classnames from 'classnames';
 import './index.scss';
 
 const answer = props => {
-  let { beSureFunc } = props;
-  let { answer } = props;
+  let { answer, beSureFunc } = props;
   return (
     <div className={classnames('answer')}>
       <div className="d-flex justify-content-between align-items-center">
@@ -61,12 +60,18 @@ const answer = props => {
           服务包括：&nbsp;
           <span dangerouslySetInnerHTML={{ __html: answer.serviceContent }} />
         </div>
-        <div
-          className="answer_Travel_way_advice left"
-        >
-          <h4 class="zaax-wxh">自由行管家<span class="zaax-wxname">小剪</span>微信：15587559122</h4>
-          (←长按复制添加至微信)<br />
-          下面给大家分享旅游经验和建议，仅供参考
+        <div className="answer_Travel_way_advice left">
+          <h4
+            class="zaax-wxh margin_left"
+            onClick={() => {
+              beSureFunc();
+            }}
+          >
+            自由行管家<span class="zaax-wxname margin_left">小剪</span>微信：15587559122
+          </h4>
+          <span style={{ color: '#666' }}> (←长按复制添加至微信)</span>
+          <br />
+          <p>下面给大家分享旅游经验和建议，仅供参考</p>
         </div>
       </div>
       <div className="answer_Travel_way advice">
@@ -75,9 +80,11 @@ const answer = props => {
         {answer.advice &&
           answer.advice.map((item, index) => {
             return (
-              <p key={index} className="advice">
-                {item}
-              </p>
+              <p
+                key={index}
+                className="advice"
+                dangerouslySetInnerHTML={{ __html: item }}
+              />
             );
           })}
       </div>
@@ -90,20 +97,29 @@ const answer = props => {
           answer.strategys.map((item, inx) => {
             return (
               <p className="advice day" key={inx}>
-                <strong>{item.name}：</strong>
-                {item.content}
+                <strong dangerouslySetInnerHTML={{ __html: item.name }} />
+                <strong dangerouslySetInnerHTML={{ __html: item.content }} />
               </p>
             );
           })}
       </div>
-      <div className="tip">ps：为我们量身打造的供参考，如果大家还有什么特殊的要求，也可以加<span class="zaax-wxname">小剪</span>详细了解下的哦。</div>
+      <div className="tip">
+        ps：为我们量身打造的供参考，如果大家还有什么特殊的要求，也可以加<span className="zaax-wxname margin_left">
+          小剪
+        </span>详细了解下的哦。
+      </div>
       <p className="introduce">
-        整个行程玩下很轻松，没有任何的强制消费环节，专业VIP接站，专车接送，这个是必须要点赞的，<span class="zaax-wxname">小剪</span>不但做事认真负责，而且安排的行程也是高度自由，不论想玩几天时间，你想怎么玩就怎么玩，他都可以根据你的时间和兴趣爱好安排一条合理的旅游路线，去恩施旅游找<span class="zaax-wxname">小剪</span>绝不会错:
+        整个行程玩下很轻松，没有任何的强制消费环节，专业VIP接站，专车接送，这个是必须要点赞的，<span className="zaax-wxname margin_left">小剪</span>不但做事认真负责，而且安排的行程也是高度自由，不论想玩几天时间，你想怎么玩就怎么玩，他都可以根据你的时间和兴趣爱好安排一条合理的旅游路线，去恩施旅游找<span className="zaax-wxname">小剪</span>绝不会错:
       </p>
-      <div
-        className="answer_Travel_way_advice"
-      >
-        <h4 class="zaax-wxh">自由行管家<span class="zaax-wxname">小剪</span>微信：15587559122</h4>
+      <div className="answer_Travel_way_advice">
+        <h4
+          class="zaax-wxh margin_left"
+          onClick={() => {
+            beSureFunc();
+          }}
+        >
+          自由行管家<span class="zaax-wxname margin_left">小剪</span>微信：15587559122
+        </h4>
         (←长按复制添加至微信)<br />
       </div>
       {answer.bgPhotos &&
