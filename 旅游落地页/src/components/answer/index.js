@@ -98,7 +98,7 @@ const answer = props => {
       </div>
       <div className="tip">ps：为我们量身打造的供参考，如果大家还有什么特殊的要求，也可以加<span class="zaax-wxname">小剪</span>详细了解下的哦。</div>
       <p className="introduce">
-        整个行程玩下很轻松，没有任何的强制消费环节，专业VIP接站，专车接送，这个是必须要点赞的，<span class="zaax-wxname">小剪</span>不但做事认真负责，而且安排的行程也是高度自由，不论想玩几天时间，你想怎么玩就怎么玩，他都可以根据你的时间和兴趣爱好安排一条合理的旅游路线，去恩施旅游找小剪绝不会错:
+        整个行程玩下很轻松，没有任何的强制消费环节，专业VIP接站，专车接送，这个是必须要点赞的，<span class="zaax-wxname">小剪</span>不但做事认真负责，而且安排的行程也是高度自由，不论想玩几天时间，你想怎么玩就怎么玩，他都可以根据你的时间和兴趣爱好安排一条合理的旅游路线，去恩施旅游找<span class="zaax-wxname">小剪</span>绝不会错:
       </p>
       <div
         className="answer_Travel_way_advice"
