@@ -1,0 +1,143 @@
+.answer {
+  margin-top: 50px;
+  .title_left {
+    .title_left_logo {
+      width: 90px;
+      height: 50px;
+      background: #ffdb26;
+      background-size: 50% 100%;
+      display: inline-block;
+      border-radius: 0 25px 25px 0;
+      &::before {
+        content: '';
+        display: inline-block;
+        margin: 0.16rem 0 0 0.08rem;
+        width: 0.4rem;
+        height: 0.4rem;
+        vertical-align: top;
+        background: url(../../imgs/sprite-icon01.png) -5.09rem -3.29333rem
+          no-repeat;
+        background-size: 5.46667rem auto;
+      }
+      &::after {
+        content: '';
+        display: inline-block; // margin: 0.16rem 0 0 0.08rem;
+        width: 50px;
+        height: 50px;
+        margin-left: 4px;
+        border-radius: 50%;
+        vertical-align: top;
+        background-image: url('http://img.laobayou.cn/enshi/imgs/202007260903415390.jpg');
+        background-size: 100% 100%;
+      }
+    }
+    .title_left_name {
+      margin-left: 10px;
+      margin-right: 8px;
+      font-size: 16px;
+      color: #555;
+      span:nth-child(1) {
+        font-size: 28px;
+        color: #000;
+      }
+    }
+    .title_left_level {
+      background-color: #ffdb26;
+      line-height: 30px;
+      color: #555;
+      display: inline-block;
+      width: 60px;
+      height: 30px;
+      text-align: center;
+      border-radius: 5px;
+    }
+  }
+  .title_right {
+    margin-right: 40px;
+    text-align: center;
+    span:nth-child(1) {
+      background-color: #ff9d00;
+      border: 1px solid #fff;
+      display: inline-block;
+      width: 120px;
+      line-height: 40px;
+      color: #fff;
+      font-family: 'PingFangSC-Medium';
+      font-weight: 600;
+    }
+  }
+  p {
+    margin: 20px 40px 0;
+    font-size: 0.4rem;
+    color: #555;
+    margin-top: 0.133333rem;
+    font-family: PingFangSC-Regular;
+    line-height: 52px;
+    img {
+      margin-bottom: 10px;
+    }
+  }
+  .answer_bg {
+    width: 670px;
+    margin: 20px 40px 0px 40px;
+  }
+  .answer_Travel_way {
+    margin: 30px 40px 0;
+    span {
+      font-size: 30px;
+      font-family: PingFangSC-Medium;
+      margin-left: -15px;
+      font-weight: 550;
+    }
+    p {
+      margin: 8px 0;
+    }
+    .answer_Travel_way_strong {
+      font-size: 30px;
+      font-family: PingFangSC-Regular;
+      margin-top: 10px;
+      font-weight: 550;
+      span {
+        color: #555;
+        font-family: PingFangSC-Medium;
+        font-weight: 500;
+        line-height: 52px;
+      }
+    }
+    .advice {
+      line-height: 46px;
+      font-size: 28px;
+      margin-top: 20px;
+    }
+    .day {
+      font-size: 30px;
+    }
+  }
+  .tip {
+    font-size: 32px;
+    color: rgb(255, 0, 0);
+    margin: 20px 40px 20px 40px;
+    line-height: 48px;
+  }
+  .introduce {
+    font-size: 32px;
+    line-height: 48px;
+    strong {
+      color: rgb(255, 0, 0);
+    }
+  }
+  .answer_Travel_way_advice {
+    margin: 10px 40px;
+    h4 {
+      font-family: PingFangSC-Medium;
+      font-size: 32px;
+      font-weight: bold;
+      color: rgb(255, 0, 0);
+      margin: 10px 0;
+    }
+  }
+  .left {
+    margin-left: 0px;
+    line-height: 30px;
+  }
+}

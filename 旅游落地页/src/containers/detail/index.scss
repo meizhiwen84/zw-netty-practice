@@ -1,0 +1,33 @@
+.detail {
+    margin: 100px 40px;
+    font-size: 32px;
+    img {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .msg {
+        margin-bottom: 30px;
+        span:nth-child(1) {
+            margin-right: 30px;
+        }
+        span:nth-child(2) {
+            background-color: #ffdb26;
+            line-height: 30px;
+            color: #555;
+            display: inline-block;
+            width: 60px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 24px;
+        }
+    }
+    .num {
+        color: #999;
+        font-size: 28px;
+    }
+    strong {
+        color: #333;
+    }
+}

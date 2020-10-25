@@ -1,0 +1,53 @@
+.copy_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 28px;
+  .modal {
+    width: 680px;
+    height: 340px;
+    background: #fff;
+    border-radius: 16px;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 120px;
+    .title {
+      line-height: 50px;
+      padding: 15px 0 10px 0;
+    }
+    p {
+      padding: 20px 0 15px 0;
+      line-height: 50px;
+      font-family: PingFangSC-Medium;
+      font-size: 30px;
+      color: rgba(32, 152, 245, 1);
+      border-top: 1px solid #d2d2d2;
+      width: 680px;
+      span {
+        font-size: 26px;
+      }
+      a {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        color: rgba(32, 152, 245, 1);
+      }
+    }
+  }
+  .cancel {
+    width: 680px;
+    line-height: 90px;
+    margin-top: 10px;
+    background: #fff;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: rgba(32, 152, 245, 1);
+    border-radius: 16px;
+  }
+}

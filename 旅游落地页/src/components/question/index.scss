@@ -1,0 +1,79 @@
+.question {
+  line-height: 52px;
+  font-size: 36px;
+  color: #333;
+  margin: 20px 40px 30px 40px;
+  font-family: PingFangSC-Medium;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 750px;
+    height: 2px;
+    left: 0;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  h3 {
+    font-family: PingFangSC-Medium;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0.53333rem;
+      height: 0.53333rem;
+      left: 0;
+      top: 135px;
+      background: url(../../imgs/sprite-icon01.png) -4.4rem -1.89333rem
+        no-repeat;
+      background-size: 5.46667rem auto;
+    }
+  }
+  p {
+    font-size: 30px;
+    color: #555;
+    margin-top: 10px;
+    font-family: PingFangSC-Regular;
+  }
+  .num {
+    margin-top: 10px;
+    color: #555;
+    font-size: 28px;
+    span:nth-child(1) {
+      margin-right: 20px;
+    }
+    .strong {
+      color: #333;
+      font-size: 30px;
+      margin-right: 10px;
+    }
+  }
+  .position {
+    font-size: 30px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    span:nth-child(1) {
+      color: #13dab6;
+      font-weight: 600;
+      &::before {
+        content: '';
+        float: left;
+        margin-top: 10px;
+        margin-right: 5px;
+        width: 0.44333rem;
+        height: 0.42667rem;
+        background: url(../../imgs/sprite-icon01.png) -4.55rem -4.39333rem
+          no-repeat;
+        background-size: 5.46667rem auto;
+      }
+    }
+    span:nth-child(2) {
+      margin-left: 20px;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+      margin-bottom: 5px;
+    }
+  }
+}

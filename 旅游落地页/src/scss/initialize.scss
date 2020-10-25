@@ -1,0 +1,274 @@
+/* @update: 2015-9-10 11:31:31 */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+button {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+li {
+    list-style: none;
+}
+
+// html,body {
+//     -webkit-user-select: none;
+//     -moz-user-select: none;
+//     user-select: none
+// }
+//
+// div, p, span {
+// -webkit-user-select:text;
+// -moz-user-select:text;
+// -ms-user-select:text;
+// user-select:text;
+// }
+a,
+img {
+    -webkit-touch-callout: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:active,
+a:hover {
+    outline: 0 none;
+}
+
+a:focus {
+    outline: 1px dotted;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    // font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, sans-serif
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    -webkit-text-size-adjust: none;
+}
+
+input,
+button,
+select,
+textarea {
+    outline: none;
+    -webkit-appearance: none;
+}
+
+input {
+    border: none;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #efefef;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1.15;
+}
+
+// -webkit-appearance: none;
+.wrap-shrink {
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+
+.wrap-flex {
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+.word-wrap {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.text-max-lines-1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /*解决多行文本溢出，webpck不能编译这个属性-webkit-box-orient: vertical */
+    /* autoprefixer: ignore next*/
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on*/
+}
+
+.text-max-lines-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /*解决多行文本溢出，webpck不能编译这个属性-webkit-box-orient: vertical */
+    /* autoprefixer: ignore next*/
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on*/
+}
+
+#jdMixWaterfall {
+    min-height: 0 !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.align-items-end {
+    align-items: flex-end !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+@media screen and (max-width: 319px) {
+    html {
+        font-size: 17.06667px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+    html {
+        font-size: 17.06667px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+    html {
+        font-size: 19.2px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 383px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 384px) and (max-width: 399px) {
+    html {
+        font-size: 20.48px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 413px) {
+    html {
+        font-size: 21.33333px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 22.08px;
+    }
+}
