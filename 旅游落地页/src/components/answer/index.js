@@ -63,11 +63,8 @@ const answer = props => {
         </div>
         <div
           className="answer_Travel_way_advice left"
-          onClick={() => {
-            beSureFunc();
-          }}
         >
-          <h4>自由行管家小剪微信：15587559122</h4>
+          <h4 class="zaax-wxh">自由行管家小剪微信：15587559122</h4>
           (←长按复制添加至微信)<br />
           下面给大家分享旅游经验和建议，仅供参考
         </div>
@@ -105,11 +102,8 @@ const answer = props => {
       </p>
       <div
         className="answer_Travel_way_advice"
-        onClick={() => {
-          beSureFunc();
-        }}
       >
-        <h4>自由行管家小剪微信：15587559122</h4>
+        <h4 class="zaax-wxh">自由行管家小剪微信：15587559122</h4>
         (←长按复制添加至微信)<br />
       </div>
       {answer.bgPhotos &&
